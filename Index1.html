@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index1.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description"> Thank you for taking the time to help us improve the platform </p>
+    <div id="body">
+      <form id="survey-form">
+        <label id="name-label" for="name">
+         <p>Name:</p>
+        </label>
+        <input id="name" type="text" placeholder="Enter Your Name" required>
+        <label id="email-label" for="email">
+         <p>Email:</p>
+        </label>
+        <input id="email" type="email" placeholder="Enter Your Email" required>
+        <label id="number-label" for="number">
+         <p>Age:</p>
+        </label>
+        <input id="number" type="number" placeholder="Enter Your Age" min="12" max="90" required>
+        <p>Which option best describes your current role?</p>
+        <select id="dropdown">
+            <option value="default">Select current role</option>
+            <option value="Student">Student</option>
+            <option value="Full Time Job">Full Time Job</option>
+            <option value="Full Time Learner">Full Time Learner</option>
+            <option value="Prefer Not To Say">Prefer Not To Say</option>
+            <option value="Other">Other</option>
+        </select>
+        <p>Which Marvel Movie Do You Like the Most?</p>
+        <div>
+        <input type="radio" name="movie" value="1">The Avenger</input>
+        <br>
+        <input type="radio" name="movie" value="2">Avengers: Age of Ultron</input>
+        <br>
+        <input type="radio" name="movie" value="3">Avengers: Infinity War</input>
+        <br>
+        <input type="radio" name="movie" value="4">Avengers: Endgame</input>
+         </div>
+        <p>Which of The Other Avenger Movies Do You Like?</p>
+        <div>
+        <input type="checkbox" name="avenger" value="1">Iron Man</input>
+        <br>
+        <input type="checkbox" name="avenger" value="2">Hulk</input>
+        <br>
+        <input type="checkbox" name="avenger" value="3">Thor</input>
+        <br>
+        <input type="checkbox" name="avenger" value="4">Black Widow</input>
+        <br>
+        <input type="checkbox" name="avenger" value="5">Ant-Man</input>
+       </div>
+        <br>
+        <P>Any comments or suggestions For Movies?</P>
+        <textarea id="comment" rows="6" cold="100">Add Your Comment Here</textarea>
+        <br>
+        <input id="submit" type="submit" value="submit"></input>
+        
+      </form>
+    </div>
+</body>
+</html>

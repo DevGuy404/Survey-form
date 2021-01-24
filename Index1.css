@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+    font-family: cooper, Helvetica, sans-serif;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+#title{
+    font-size: 45px;
+}
+#description{
+    font-size: 14px;
+}
+#body{
+    width: 600px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+#name{
+    width: 560px;
+    padding: 15px;
+    border-radius: 10px;
+}
+#email{
+    width: 560px;
+    padding: 15px;
+    border-radius: 10px;
+}
+#number{
+    width: 560px;
+    padding: 15px;
+    border-radius: 10px;
+}
+#dropdown{
+    width: 560px;
+    padding: 15px;
+    border-radius: 10px;
+}
+#comment{
+    width: 550px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#submit{
+    width: 570px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 3px;
+    font-family: fantasy;
+}
+#submit {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
+#submit {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   
+   border-radius: 10px;
+   display: block;
+ }
+
+ #submit:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
